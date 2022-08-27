@@ -1,0 +1,68 @@
+# asset pack configurations
+[asset_pack]
+    # asset pack name
+    name =              "vvariety2-assets"
+    # contributors
+    author =            "Voltaism"
+    # version
+    version =           "0.1.0"
+    # image URL
+    image =             "https://i.imgur.com/13WwwXT.jpg"
+
+# unreal engine configurations
+[unreal]
+    # unreal engine folder - the name of the root folder (the one inside UnrealProject/Content/) which the assets will have references to each other
+    unreal_folder =     "VehicleVarietyVol2"
+    # unreal engine version - unreal version this asset pack was compiled on
+    unreal_version =    "5.0.3"
+
+# assets files
+[assets]
+    # maps
+    [assets.maps]
+        # MyMap = "MyFolder/MyAwesomeMap"
+        # ...
+
+    # static meshes
+    [assets.static_meshes]
+        SM_BoxTruck_01a = "Meshes/SM_BoxTruck_01a"
+        SM_Campervan_01a = "Meshes/SM_Campervan_01a"
+        SM_SUV_01a = "Meshes/SM_SUV_01a"
+        SM_Sedan_01a = "Meshes/SM_Sedan_01a"
+
+    # skeletal meshes
+    [assets.skeletal_meshes]
+        SK_BoxTruck_01a = "Skeletons/SK_BoxTruck_01a"
+        SK_CamperVan_01a = "Skeletons/SK_CamperVan_01a"
+        SK_SUV_01a = "Skeletons/SK_SUV_01a"
+        SK_Sedan_01a = "Skeletons/SK_Sedan_01a"
+
+    # sounds
+    [assets.sounds]
+        # A_Awesome_Music = "Sounds/A_Awesome_Music"
+        # ...
+
+    # animations
+    [assets.animations]
+        # A_Character_Jump = "Animations/A_Character_Jump"
+        # ...
+
+    # particles
+    [assets.particles]
+        # P_Big_Explosion = "Particles/P_Big_Explosion"
+        # ...
+
+    # materials
+    [assets.materials]
+        # M_Red_Textured = "Materials/M_Red_Textured"
+        # ...
+
+    # blueprints
+    [assets.blueprints]
+        # BP_AmazingStuff = "Blueprints/BP_AmazingStuff"
+        # ...
+
+    # other assets (for not yet categorized ones)
+    [assets.others]
+        # Some_Stuff = "Others/Some_Stuff"
+        # ...
